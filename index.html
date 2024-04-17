@@ -1,0 +1,102 @@
+﻿`<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cool Company</title>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="container">
+        <img class="logo" src="img/logo.png" alt="logo">
+        <div class="flex1" >
+            <div class="flex1_1">
+                <h1 class="flex1_h1">С помощью нас <br>
+                    вы сможете создать то, о чем<br><span>желаете!</span></h1>
+                <h6 class="flex1_h6" >Наши возможности + опыт позволят Вам достичь
+                    <br>огромного успеха. Мы верим в вас! И знаем это на
+                    <br>все 100%. Вас не остановить!
+                </h6>
+                <a class="flex1_button">Узнать больше...</a>
+            </div>
+            <img class="phone" src="img/header-img.png" alt="phone">
+        </div>
+    </div>
+</header>
+
+</section>
+    <div class="main">
+        <h2 class="flex2_h2">Что Вам необходимо?</h2>
+        <div class="flex2">
+            <div class="flex20">
+                <img class="img_main" src="img/f3.png" alt="f3">
+                <h3 class="flex20_h3">Первый блок</h3>
+                <p class="flex20_p">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="flex20">
+                <img class="img_main" src="img/f4.png" alt="f4">
+                <h3 class="flex20_h3">Второй блок</h3>
+                <p class="flex20_p">Deserunt optio nobis deleniti temporibus eius unde natus inventore facere blanditiis!</p>
+            </div>
+            <div class="flex20">
+                <img class="img_main" src="img/f5.png" alt="f5">
+                <h3 class="flex20_h3">Третий блок</h3>
+                <p class="flex20_p">Excepturi enim recusandae similique ad aspernatur atque, culpa vitae soluta architecto.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="lab8">
+    <div class="container">
+        <h2 class="h2_form">Регистрация на сайте</h2>
+        <form action="#" method="get">
+            <select name="country" id="country_select" required>
+            <option>Выбери страну</option>
+            <option value="Russia">Россия</option>
+            <option value="Belarus">Беларусь</option>
+            <option value="Kazakhstan">Казахстан</option>
+            <option value="Serbia ">Сербия</option>
+            </select>
+            <p></p>
+            <input type="text" name="name" id="name_input" placeholder="Имя" onchange="checkName();" required >
+            <p></p>
+            <input type="password" id="password" name="ent_password" placeholder="Пароль (не менее 8)" onchange="checkPasswd();">            
+            <p></p>
+            <input type="text" name="code" id="code_input" placeholder="Введите кодовую фразу" onchange="checkCode();">
+            <p></p>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<section class="forms">
+    <div class="container">
+        <h2 class="h2_form">Форма заказа обратного звонка</h2>
+        <form action="#" method="get">
+            <input type="text" name="name" id="fname_input" placeholder="Имя" min="1" max="50" required>
+            <p></p>
+            <input type="email" name="email" id="email_input" placeholder="Введите свой E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            <p></p>
+            <input type="tel" name="phone" id="phone_input" placeholder="Телефон" pattern="\+\d{1}\d{10}" required>
+            <p></p>
+            <input type="text" name="r" id="phone_r" placeholder="Какая тема Вас интересует?" required>
+            <p></p>
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+</section>
+
+<section class="footer">
+    <div class="container"> 
+        <h6>Все на этом сайте защищенно</h6>
+    </div>
+</section>
+
+</body>
+</html>
